@@ -30,7 +30,7 @@ return  ()=>{
 }
 },[])
     return <AuthContext.Provider value={{currentUser, signup, logout, login, resetPassword}}>
-{!loading && children}
+{children}
     </AuthContext.Provider>
 }
 
